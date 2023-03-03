@@ -139,10 +139,9 @@ img {
  @media screen and (max-width: 480px){
     .row{
         flex-wrap: wrap;
-        justify-content: space-around;
     }
-    .lessons .col{
-        margin-left: 1rem;
-        margin-right: 1rem;
+
+    .lessons .col, .steps .col{
+        width: 100%;
     }
  }
