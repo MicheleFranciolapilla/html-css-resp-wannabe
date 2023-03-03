@@ -134,3 +134,15 @@ img {
         width: 100%;
     }
  }
+
+ /* Media query per mobile (max-width = 480 pixel) */
+ @media screen and (max-width: 480px){
+    .row{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .lessons .col{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+ }
