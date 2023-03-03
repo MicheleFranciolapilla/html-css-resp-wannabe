@@ -144,4 +144,8 @@ img {
     .lessons .col, .steps .col{
         width: 100%;
     }
+
+    .col :not(:last-child){
+        margin-bottom: 5rem;
+    }
  }
