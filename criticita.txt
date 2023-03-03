@@ -1,0 +1,8 @@
+Ricerca criticità:
+
+In index.html       Assenza <meta viewport>         Criticità certa.        <ROSSA>
+
+In style.css        Width in pixel (rigo 50)        Criticità certa.        <ROSSA>
+In style.css        Padding in pixel (rigo 52)      Criticità incerta.      <GIALLA>
+In style.css        Height in pixel (rigo 84)       Criticità probabile.    <ARANCIO>
+In style.css        Height in pixel (rigo 106)      Criticità probabile.    <ARANCIO>
