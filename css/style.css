@@ -146,6 +146,7 @@ img {
     }
 
     .col{
+        width: 100%;
         padding-left: 2rem;
         padding-right: 2rem;
     }
@@ -156,6 +157,23 @@ img {
 
     .steps .row{
         gap: 4rem;
+    }
+
+    .why-us .row{
+        flex-direction: column;
+    }
+
+    .why-us .col-left, .why-us .col-right{
+        width: 100%;
+    }
+
+    .steps{
+        margin-bottom: 0;
+    }
+
+    .why-us{
+        padding-top: 3rem;
+        background-color: #222222;
     }
 
  }
