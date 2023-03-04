@@ -139,6 +139,7 @@ img {
  @media screen and (max-width: 480px){
     .row{
         flex-wrap: wrap;
+        gap: 4rem;
     }
 
     .lessons .col, .steps .col{
@@ -151,12 +152,15 @@ img {
         padding-right: 2rem;
     }
 
-    .lessons .row{
-        gap: 4rem;
+    .steps{
+        margin-bottom: 0;
     }
 
-    .steps .row{
-        gap: 4rem;
+    .why-us{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        margin-bottom: 0;
+        background-color: #222222;
     }
 
     .why-us .row{
@@ -166,14 +170,4 @@ img {
     .why-us .col-left, .why-us .col-right{
         width: 100%;
     }
-
-    .steps{
-        margin-bottom: 0;
-    }
-
-    .why-us{
-        padding-top: 3rem;
-        background-color: #222222;
-    }
-
  }
