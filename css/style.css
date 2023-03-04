@@ -145,7 +145,17 @@ img {
         width: 100%;
     }
 
-    .col :not(:last-child){
-        margin-bottom: 5rem;
+    .col{
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
+
+    .lessons .row{
+        gap: 4rem;
+    }
+
+    .steps .row{
+        gap: 4rem;
+    }
+
  }
